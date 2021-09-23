@@ -6,8 +6,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 xmlns:foaf="http://xmlns.com/foaf/0.1/"
 >
 
-<xsl:template match="/">
-    <h2><xsl:value-of select="foaf:name"/>frfrfr</h2>
+<xsl:template match="/rdf:RDF/foaf:Person">
+    <h2><xsl:value-of select="foaf:name"/></h2>
 </xsl:template>
  
 </xsl:stylesheet>

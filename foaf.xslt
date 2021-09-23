@@ -4,7 +4,7 @@
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:template match="rdfdata">
+<xsl:template match="/">
     <h2><xsl:value-of select="name"/></h2>
 </xsl:template>
 
